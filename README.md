@@ -11,6 +11,7 @@ A [Twig](http://twig.sensiolabs.org/) extension for [abr4xas/twig-slug](https://
 $ composer require abr4xas/twig-slug
 $ composer dumpautoload -o // optional
 ```
+or add this to your `composer.json`
 
 ```json
     "require": {
