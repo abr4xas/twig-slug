@@ -14,7 +14,7 @@ $ composer dumpautoload -o // optional
 ## how to use 
 
 ```php
-$view->addExtension(new Abr4xas\SeoUrl\SeoUrl());
+$view->addExtension(new \SeoUrl\SeoUrl());
 ```
 
 ```
