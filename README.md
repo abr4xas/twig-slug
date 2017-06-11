@@ -12,6 +12,17 @@ $ composer require abr4xas/twig-slug
 $ composer dumpautoload -o // optional
 ```
 
+```json
+    "require": {
+        "abr4xas/twig-slug": "dev-master"
+    }
+```
+and
+
+```bash
+$ composer update
+$ composer dumpautoload -o // optional
+```
 
 ## usage
 
@@ -22,13 +33,13 @@ $twig = new Twig_Environment($loader);
 $twig->addExtension(new \SeoUrl\SeoUrl());
 ```
 
-Then use it in your templates:
+then use it in your templates:
 
 ```
 {{ This is an awesome string | seourl }} // output: this-is-an-awesome-string
 ```
 
-In `SomeController` like this:
+in `SomeController` like this:
 
 ```php
 <?php
