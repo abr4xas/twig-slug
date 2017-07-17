@@ -40,7 +40,7 @@ then use it in your templates:
 {{ This is an awesome string | seourl }} // output: this-is-an-awesome-string
 ```
 
-in `SomeController` like:
+in `SomeController` like this:
 
 ```php
 <?php
